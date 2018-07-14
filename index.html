@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- ========================================================= -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<!-- ========================================================= -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- ========================================================= -->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!-- ========================================================= -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<title>Find-A-Pet </title>
+</head>
+<body>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form id="pet-form" class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Find A Pet
+				</span>
+
+				<div class="wrap-input100 validate-input bg1">
+					<span class="label-input100">Zipcode *</span>
+					<input id="zip" type="text" class="input100" placeholder="Enter Your Zipcode"></input>
+				</div>
+
+				<div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Animal *</span>
+					<div>
+						<select id="animal" class="custom-select form-control form-control-lg mb-3">
+							<option>Choosing a Pet</option>
+							<option value="cat">Cat</option>
+							<option value="dog">Dog</option>
+							<option value="bird">Bird</option>
+							<option value="barnyard">Barnyard</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+					</div>
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Breed</span>
+					<select id="breed" class="custom-select form-control form-control-lg mb-3">
+				    </select>
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Sex</span>
+					<select id="sex" class="custom-select form-control form-control-lg mb-3">
+						<option value=""></option>
+						<option value="M">Male</option>
+						<option value="F">Female</option>
+				    </select>	
+				</div>
+
+				
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Age</span>
+					<select id="age" class="custom-select form-control form-control-lg mb-3">
+						<option value=""></option>
+						<option value="Baby">Baby</option>
+						<option value="Young">Young</option>
+						<option value="Adult">Adult</option>
+						<option value="Senior">Senior</option>
+				    </select>
+				</div>
+
+				
+				<div class="wrap-input100 bg1 rs1-wrap-input100">
+					<span class="label-input100">Size</span>
+					<select id="age" class="custom-select form-control form-control-lg mb-3">
+						<!-- <option value=""></option> -->
+						<option value="" ></option>
+						<option value="S">Small</option>
+						<option value="M">Medium</option>
+						<option value="L">Large</option>
+						<option value="XL">Extra-large</option>
+				    </select>
+				</div>	
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+
+		</form>
+	  </div>
+
+	  <div id="results"></div>
+	</div>
+
+	
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	
+</body>
+</html>
